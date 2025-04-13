@@ -1,0 +1,94 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the entire body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the blog section */
+.blog-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style each individual blog post */
+.blog-post {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+/* Style blog post headings */
+.blog-post h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style the post metadata (date and author) */
+.blog-post p {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Style the post author */
+.blog-post .author {
+    color: #555;
+    font-weight: bold;
+}
+
+/* Style blog post images */
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Style the blog post content */
+.blog-post p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Center the footer content */
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Add more styles as needed to further customize your design */
